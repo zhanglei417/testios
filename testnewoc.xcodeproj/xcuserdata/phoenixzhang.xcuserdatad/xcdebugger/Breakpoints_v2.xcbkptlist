@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "testnewoc/zhangSum.m"
-            timestampString = "511932856.669997"
+            timestampString = "511943130.6329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "-sum"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-sum:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

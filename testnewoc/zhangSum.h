@@ -14,4 +14,5 @@
 }
 -(void)setN:(int)_n;
 -(int)sum;
+-(int)sum:(int)_n;
 @end

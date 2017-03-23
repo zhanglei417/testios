@@ -22,4 +22,14 @@
         }
     return s;
 }
+
+-(int)sum:(int)_n;
+{
+    int s = 0;
+    for (int i = _n; i <=n; i++)
+    {
+        s += i;
+    }
+    return s;
+}
 @end

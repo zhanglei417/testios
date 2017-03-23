@@ -19,7 +19,9 @@ int main(int argc, const char * argv[]) {
         [zhang say];
         [test setN:5];
         int s = [test sum];
+        int a = [test sum:3];
         NSLog(@"sum=%d", s);
+        NSLog(@"sum=%d", a);
     }
     return 0;
 }
