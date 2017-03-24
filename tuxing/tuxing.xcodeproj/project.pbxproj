@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		28743F641E83A2F600D5BD5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28743F631E83A2F600D5BD5F /* main.m */; };
+		28743F6C1E83A36600D5BD5F /* ZHLRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 28743F6B1E83A36600D5BD5F /* ZHLRectangle.m */; };
+		28743F6F1E83A7D200D5BD5F /* ZHLSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 28743F6E1E83A7D200D5BD5F /* ZHLSquare.m */; };
+		28743F721E83AB9800D5BD5F /* ZHLCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 28743F711E83AB9800D5BD5F /* ZHLCircle.m */; };
+		28743F751E83ACDB00D5BD5F /* ZHLTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 28743F741E83ACDB00D5BD5F /* ZHLTriangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		28743F601E83A2F600D5BD5F /* tuxing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tuxing; sourceTree = BUILT_PRODUCTS_DIR; };
 		28743F631E83A2F600D5BD5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28743F6A1E83A36600D5BD5F /* ZHLRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLRectangle.h; sourceTree = "<group>"; };
+		28743F6B1E83A36600D5BD5F /* ZHLRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHLRectangle.m; sourceTree = "<group>"; };
+		28743F6D1E83A7D200D5BD5F /* ZHLSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLSquare.h; sourceTree = "<group>"; };
+		28743F6E1E83A7D200D5BD5F /* ZHLSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHLSquare.m; sourceTree = "<group>"; };
+		28743F701E83AB9800D5BD5F /* ZHLCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLCircle.h; sourceTree = "<group>"; };
+		28743F711E83AB9800D5BD5F /* ZHLCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHLCircle.m; sourceTree = "<group>"; };
+		28743F731E83ACDB00D5BD5F /* ZHLTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLTriangle.h; sourceTree = "<group>"; };
+		28743F741E83ACDB00D5BD5F /* ZHLTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHLTriangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				28743F631E83A2F600D5BD5F /* main.m */,
+				28743F731E83ACDB00D5BD5F /* ZHLTriangle.h */,
+				28743F741E83ACDB00D5BD5F /* ZHLTriangle.m */,
+				28743F701E83AB9800D5BD5F /* ZHLCircle.h */,
+				28743F711E83AB9800D5BD5F /* ZHLCircle.m */,
+				28743F6D1E83A7D200D5BD5F /* ZHLSquare.h */,
+				28743F6E1E83A7D200D5BD5F /* ZHLSquare.m */,
+				28743F6A1E83A36600D5BD5F /* ZHLRectangle.h */,
+				28743F6B1E83A36600D5BD5F /* ZHLRectangle.m */,
 			);
 			path = tuxing;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28743F6C1E83A36600D5BD5F /* ZHLRectangle.m in Sources */,
+				28743F6F1E83A7D200D5BD5F /* ZHLSquare.m in Sources */,
+				28743F721E83AB9800D5BD5F /* ZHLCircle.m in Sources */,
 				28743F641E83A2F600D5BD5F /* main.m in Sources */,
+				28743F751E83ACDB00D5BD5F /* ZHLTriangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
